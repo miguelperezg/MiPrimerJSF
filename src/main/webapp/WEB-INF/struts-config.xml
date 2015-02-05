@@ -9,7 +9,7 @@
 	</form-beans>
 	<action-mappings>
 		<action path="/bienvenida" type="com.open4job.struts.controller.Controlador"
-		name="BienvenidaForm">
+		name="BienvenidaForm" input="/index.jsp">
 			<forward name="Bienvenido" path="/Bienvenido.jsp" />
 		</action>
 	</action-mappings>
